@@ -2,12 +2,12 @@
 
 # -----------------------------------------------------------------------------
 #  Change these if this if not where hallc_replay and hcana live
-setenv hcana_dir "/home/$USER/hcana"
-setenv hallc_replay_dir "/home/$USER/hallc_replay"
+setenv hcana_dir "/home/$USER/analysis/hcana"
+setenv hallc_replay_dir "/home/$USER/analysis/hallc_replay"
 
 # -----------------------------------------------------------------------------
 #  Change if this gives you the wrong version of root, evio, etc
-source /site/12gev_phys/production.csh 2.1
+#source /site/12gev_phys/production.csh 2.1
 
 # -----------------------------------------------------------------------------
 # Source setup scripts

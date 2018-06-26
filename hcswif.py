@@ -14,7 +14,7 @@ import warnings
 # Define environment
 
 # Where do you want your job output (json files, stdout, stderr)?
-out_dir = os.path.join('/home/', getpass.getuser() , 'hcswif/output')
+out_dir = os.path.join('/home/', getpass.getuser() , 'analysis/hcswif/output')
 if not os.path.isdir(out_dir):
     warnings.warn('out_dir: ' + out_dir + ' does not exist')
 
