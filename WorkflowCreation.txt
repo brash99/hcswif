@@ -1,0 +1,6 @@
+./hcswif_debug.py --mode replay --spectrometer SHMS_ALL --run 1762-1771
+--events -1 --project c-gep --name BPMCalibrationDebug --replay
+SCRIPTS/SHMS/RASTER/replay_shms_raster_simple.C --shell csh
+
+swif import -file output/BPMCalibrationDebug.json
+swif run BPMCalibrationDebug
